@@ -107,5 +107,7 @@ PS E:\c_drive\tutorjoes\GIT> git commit -m "Initial commit"
  create mode 100644 index.html
  create mode 100644 index.js
 
-
- 
+PS E:\c_drive\tutorjoes\GIT> git commit -am "git text committed";
+[main 732bc59] git text committed
+ 1 file changed, 13 insertions(+), 3 deletions(-)
+PS E:\c_drive\tutorjoes\GIT> 
