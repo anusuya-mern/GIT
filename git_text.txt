@@ -1,0 +1,101 @@
+1. Distributed version control system.
+2. Repo - repository - main folder
+.git - hidden file
+Commit - like a snapshot and created id for that current changes.
+commit message - for info
+branch - main, more than one branch.
+merge - merging branches.
+
+Linux = Linus torlvels
+Git(Software) and github (cloud platform), bid bucket, code commit(AWS)
+Remote repository (Online git commit)
+
+Download and install a Git
+to check git git --version
+
+username: anusuyargit@gmail.com
+password: Anusuyaram@92
+
+Environment setup:
+VS code, comment line interface and git bash are the environment to do.
+
+git --version
+git version 2.37.0.windows.1
+
+username - anusuya-mern
+email - anusuyargit@gmail.com
+password - Anusuyaram@92
+
+PS E:\c_drive\tutorjoes\projects> git config --global user.name 'anusuya-mern'
+PS E:\c_drive\tutorjoes\projects> git config --global user.email 'anusuyargit@gmail.com'
+
+PS E:\c_drive\tutorjoes\projects> git config user.name
+anusuya-mern
+
+PS E:\c_drive\tutorjoes\projects> git config user.email
+anusuyargit@gmail.com
+
+To set the main branch name:
+git config --global init.defaultBranch main   
+
+To initialize git repository:
+git init
+Initialized empty Git repository in E:/c_drive/tutorjoes/projects/.git/
+
+U - untracked file
+-----------------------
+git status
+
+On branch main
+No commits yet
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        GIT/
+        index.html
+        index.js
+        readme.md
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+A - added file
+-----------------------
+git add .\readme.md
+git status
+    
+On branch main
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   readme.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        GIT/
+        index.html
+        index.js
+
+
+>> git commit -m "read text"
+[main (root-commit) ee26fa5] read text
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 readme.md
+
+ PS E:\c_drive\tutorjoes\projects> git status
+On branch main
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git_text.txt
+        index.html
+        index.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+>> git log
+commit ee26fa52cc1e16b53931fde2005206b84c2b09e3 (HEAD -> main)
+Author: anusuya-mern <anusuyargit@gmail.com>
+Date:   Mon Oct 26 12:47:58 2026 +0530
+
+    read text
+
