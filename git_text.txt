@@ -157,3 +157,22 @@ Switched to branch 'bug'
 create and switch the branch in same command:
 ---------------------------------------------
 git checkout -b feature
+
+list branch
+---------------
+PS E:\c_drive\tutorjoes\GIT> git branch
+  bug
+* feature
+  main
+
+PS E:\c_drive\tutorjoes\GIT> git checkout feature
+
+*****Here currently we are checkout to feature branch from main branch. so the "main" branch is the source branch of feature.
+
+How to share the new branch to remote repository:
+-------------------------------------------------
+git push --set-upstream origin feature
+git push -u origin feature
+
+**** this branch will be created in remote repository only once.after that just we have to do type 
+"git push"
