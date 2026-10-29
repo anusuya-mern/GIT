@@ -111,3 +111,29 @@ PS E:\c_drive\tutorjoes\GIT> git commit -am "git text committed";
 [main 732bc59] git text committed
  1 file changed, 13 insertions(+), 3 deletions(-)
 PS E:\c_drive\tutorjoes\GIT> 
+
+
+PS E:\c_drive\tutorjoes\GIT> git checkout 58cf7fff3e945ec05fba794d841eb9ff99f2f2da
+Note: switching to '58cf7fff3e945ec05fba794d841eb9ff99f2f2da'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 58cf7ff git text file updated
+PS E:\c_drive\tutorjoes\GIT> git checkout main
+Previous HEAD position was 58cf7ff git text file updated
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+PS E:\c_drive\tutorjoes\GIT> 
