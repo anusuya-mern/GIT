@@ -2,3 +2,4 @@ This is sample text.
 this file has been edited now
 
 ##feature text added
+new data added from feature branch.
