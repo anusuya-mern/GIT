@@ -137,3 +137,10 @@ Switched to branch 'main'
 Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
 PS E:\c_drive\tutorjoes\GIT> 
+
+PS E:\c_drive\tutorjoes\GIT>  git checkout -f  main                                
+Previous HEAD position was 58cf7ff git text file updated
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+PS E:\c_drive\tutorjoes\GIT> 
