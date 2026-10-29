@@ -144,3 +144,16 @@ Switched to branch 'main'
 Your branch is ahead of 'origin/main' by 2 commits.
   (use "git push" to publish your local commits)
 PS E:\c_drive\tutorjoes\GIT> 
+
+
+branch
+------------
+git branch bug     -- to create new branch
+
+git checkout bug     -- to switch that branch
+
+Switched to branch 'bug'   
+
+create and switch the branch in same command:
+---------------------------------------------
+git checkout -b feature
